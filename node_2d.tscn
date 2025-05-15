@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://81nx151oi1rv"]
+
+[ext_resource type="Texture2D" uid="uid://dadex3esesys" path="res://2D Pixel Dungeon Asset Pack v2.0/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_j8icq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+
+[node name="DungeonTileset" type="Sprite2D" parent="."]
+position = Vector2(494.5, 326)
+scale = Vector2(6.15625, 4.0875)
+texture = ExtResource("1_j8icq")
